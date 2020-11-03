@@ -1,21 +1,31 @@
-import { Import, useDeno } from 'https://deno.land/x/aleph/mod.ts'
-import React, { useState } from 'https://esm.sh/react'
-import Logo from '../../components/logo.tsx'
+import { useDeno } from "https://deno.land/x/aleph/mod.ts";
+import React, { useState } from "https://esm.sh/react";
+import { Head, Import } from "https://deno.land/x/aleph/mod.ts";
 
 export default function Test() {
-    const [count, setCount] = useState(0)
-    const version = useDeno(() => {
-        return Deno.version
-    })
+  const [count, setCount] = useState(0);
+  const version = useDeno(() => {
+    return Deno.version;
+  });
 
-    return (
-        <div className="page">
-            <Import from="../../style/index.less" />
-            <p className="logo"><Logo /></p>
-            <h1>Welcome to test</h1>
-            <h1>Welcome to test</h1>
-            <h1>Welcome to test</h1>
-            <h1>Welcome to test</h1>
-        </div>
-    )
+  return (
+    <>
+      <Import from="../../style/index.less" />
+      <article>
+        <p>
+          This is a test of the article tag
+        </p>
+      </article>
+      <article>
+        <p>
+          This is a test of the article tag
+        </p>
+      </article>
+      <article>
+        <p>
+          This is a test of the article tag
+        </p>
+      </article>
+    </>
+  );
 }
