@@ -17,6 +17,7 @@
 
 - [ ] Make landing page
 - [ ] Set up Database
+- [ ] Add book to database
 - [ ] Set up Search page
   - [ ] Drop down on known keywords
 - [ ] Book shelf styling (look at old option)
