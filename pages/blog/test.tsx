@@ -12,16 +12,7 @@ export default function Test() {
     <>
       <Import from="../../style/index.less" />
       <article>
-        <p>
-          This is a test of the article tag
-        </p>
-      </article>
-      <article>
-        <p>
-          This is a test of the article tag
-        </p>
-      </article>
-      <article>
+        <h2>Test Article</h2>
         <p>
           This is a test of the article tag
         </p>

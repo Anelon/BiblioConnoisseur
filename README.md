@@ -2,9 +2,11 @@
 
 ### Blog
 
+- [ ] Blog Site Layout (side nav with recent blog posts)
 - [ ] Save blog posts in yyyy-mm-dd-title
 - [ ] Style blog pages (probably just the markdown parse)
 - [ ] Set up blog home page for loading all posts recent at the top
+- [ ] /blog/recent redirect to most recent blog post
 - [ ] Side bar with twitter stream
 - [ ] Admin Pages
   - [ ] Make post
@@ -15,6 +17,7 @@
 
 ### Main Site
 
+- [ ] Main Site Layout (top nav with search)
 - [ ] Make landing page
 - [ ] Set up Database
 - [ ] Add book to database
